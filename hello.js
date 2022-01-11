@@ -6,6 +6,10 @@ app.get("/", function(request, response){
     return response.send("Hello World")
 })
 
+app.get("/teste", function(request, response){
+    return response.send("Teste")
+})
+
 app.get("/anderson", function(request, response){
     return response.send("Meu nome é Anderson")
 })
